@@ -1,3 +1,6 @@
+var x = 1;
+document.write (x + 1);
+
 function My_First_Function() {
     var link = 'Courage';
     var zelda = 'Wisdom';
@@ -9,4 +12,4 @@ function My_Second_Function() {
     var triforce = 'Courage';
     triforce += ' Wisdom and Power';
     document.getElementById("LoZ").innerHTML = triforce;
-}   
+} 
