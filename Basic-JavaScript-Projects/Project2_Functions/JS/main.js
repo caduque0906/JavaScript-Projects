@@ -1,5 +1,11 @@
-var x = 1;
-document.write (x + 1);
+var n = 1;
+document.write (n + 1);
+
+function quickMaths(a, b) {
+    return a * b
+}
+
+document.write (quickMaths(5,6));
 
 function My_First_Function() {
     var link = 'Courage';
@@ -12,4 +18,4 @@ function My_Second_Function() {
     var triforce = 'Courage';
     triforce += ' Wisdom and Power';
     document.getElementById("LoZ").innerHTML = triforce;
-} 
+}
