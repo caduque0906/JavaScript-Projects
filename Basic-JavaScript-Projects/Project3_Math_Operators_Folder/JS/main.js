@@ -11,7 +11,7 @@ function Multiply() {
     document.getElementById("Math_Multiply").innerHTML = Multiplication;
 }
 function Random_Math() {
-    var Random_Num = Math.random();
+    var Random_Num = Math.random(); //returning a number lower than 1.
     document.getElementById("Math_Random").innerHTML = Random_Num;
 }
 function Mod() {
