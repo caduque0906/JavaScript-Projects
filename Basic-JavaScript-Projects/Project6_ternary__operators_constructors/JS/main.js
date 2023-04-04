@@ -38,7 +38,7 @@ function Triforce() {
 
 function Nested() {
     document.getElementById("Nested_Function").innerHTML = Count();
-    function Count(); {
+    function Count() {
         var Starting_Point = 9;
         function Plus_one() {Starting_Point += 1};
         Plus_one();
